@@ -1,6 +1,7 @@
 use std::io;
+use std::num;
 
-fn main() -> Result<(), std::num::ParseIntError> {
+fn main() -> Result<(), num::ParseIntError> {
     loop{
         println!("Please enter a number below:");
         let mut inp = String::new();
